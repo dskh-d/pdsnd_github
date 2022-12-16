@@ -185,11 +185,11 @@ def raw_data(df):
     i = 0
     while True:
 
-        
+
         u_i = input('\nWould you like to view raw data? Enter yes or no.\n')
         if u_i.lower() == 'yes':
 
-            print(df[i:i + m_i])
+            print(df[i:i + 5])
         i += 5
         if u_i.lower() != 'yes':
             break
