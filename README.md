@@ -4,10 +4,10 @@
 16/12/22.
 
 ### Project Title
-BikeShare Project 
+BikeShare Project
 
 ### Description
-Describe what your project is about and what it does
+data of a bike ride sharing system that was gathered from 3 major cities: Chicago, New York City and Washington
 
 ### Files used
 Include the files used
