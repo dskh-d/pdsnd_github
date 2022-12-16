@@ -40,8 +40,8 @@ def get_filters():
                 break
         except:
             print('NOT A VAILD INPUT!!')
-        print('try again')       
-        
+        print('try again')
+
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     print('Choose a day: monday, tuesday,....,sunday or all')
@@ -54,7 +54,7 @@ def get_filters():
                 break
         except:
              print('NOT A VAILD INPUT!!')
-        print('try again')             
+        print('try again')
 
     print('-'*40)
     return city, month, day
@@ -161,8 +161,8 @@ def user_stats(df):
 
     # TO DO: Display counts of user types
     print(df['User Type'].value_counts())
-    
-        
+
+
 
     # TO DO: Display counts of gender
     try:
@@ -180,22 +180,22 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-    
+
 def raw_data(df):
     i = 0
     while True:
+
         
-        m_i = 5
         u_i = input('\nWould you like to view raw data? Enter yes or no.\n')
         if u_i.lower() == 'yes':
-            
+
             print(df[i:i + m_i])
         i += 5
         if u_i.lower() != 'yes':
             break
-        
-        
-            
+
+
+
 
 def main():
     while True:
